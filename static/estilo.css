@@ -1,6 +1,4 @@
-#ref-div {
-    border: 1px solid red;
-    border-radius: 3px;
-    background-color: bisque;
+#ref-p {
+    background-color: beige;
     cursor: pointer;
 }

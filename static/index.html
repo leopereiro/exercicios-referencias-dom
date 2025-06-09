@@ -5,23 +5,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DOM 0</title>
   <link href="./estilo.css" rel="stylesheet"/>
-  <script async src="./index.js"></script>
+  <script type="module" async src="./index.js"></script>
   
 </head>
 <body>
-  <h1> Ola, mundo </h1>
-  <ul id="lista">
-    <li> primeiro dato </li>
-    <li> segundo dato </li>
-  </ul>
-  <div class="caixa">
-    <div class="interior"> caixa interior </div>
-  </div>
-  <div id="ref-div">
-    estou dentro do div
-  <p> isto é un parágrafo dentro do div <span> isto é un span dentro do parágrafo e do div </span>
+
+  <p id="ref-p">
+    ola, esto é un parágrafo
   </p>
+
+  <div id="ref-div">
+    ola, esto é un div
   </div>
+
+  <ul id="ref-lista"> Lista
+    <li> primeiro texto </li>
+    <li> segundo texto </li>
+  </ul>
+
+  <table id="ref-table">
+  <tr>
+    <th id="ref-th">First name</th>
+    <th>Last name</th>
+  </tr>
+  <tr>
+    <td id="ref-td">John</td>
+    <td>Doe</td>
+  </tr>
+  <tr>
+    <td>Jane</td>
+    <td>Doe</td>
+  </tr>
+</table>
+ 
 
 </body>
 </html>

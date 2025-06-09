@@ -1,14 +1,16 @@
-console.log(document.getElementById("lista").childNodes)
-    console.log(document.getElementById("lista").firstChild)
-    console.log(document.getElementById("lista").children)
-    console.log(document.getElementById("lista").nextElementSibling)
-    console.log(document.getElementById("lista").nextSibling)
-    console.log(document.getElementsByClassName("caixa"))
-    console.log(document.querySelector(".caixa"))
-    console.log(document.querySelector(".caixa").childNodes)
-    console.log(document.querySelector(".caixa").children)
+import {refP, refDiv, refLista, refTable, refTh, refTd} from "./funcions/referencias.js"
 
-const refDiv = document.querySelector("#ref-div");
-refDiv.addEventListener("click", ()=>{
-    refDiv.childNodes[1].textContent = "cambio o texto"
-})
+console.log(refP)
+console.log(refDiv)
+console.log(refLista)
+console.log(refTable)
+
+console.log(document.getElementById("ref-p").firstChild)
+console.log(document.getElementById("ref-div").firstChild)
+console.log(document.getElementById("ref-lista").children[0])
+console.log(document.getElementById("ref-lista").children[1])
+console.log(document.getElementById("ref-table").firstChild)
+console.log(document.getElementById("ref-th").firstChild)
+console.log(document.getElementById("ref-td").firstChild)
+ 
+
