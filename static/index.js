@@ -1,4 +1,4 @@
-import {refP, refDiv, refLista, refTable, refTh, refTd, refBody} from "./funcions/referencias.js"
+import {refP, refDiv, refLista, refTable, refTh, refTd, refBody, refBoton, refPEx3, refBotonP, refListaEx3, refBotonLista} from "./funcions/referencias.js"
 
 /*console.log(refP)
 console.log(refDiv)
@@ -15,14 +15,19 @@ console.log(document.getElementById("ref-th").firstChild)
 console.log(document.getElementById("ref-td").firstChild)
 console.log(document.getElementById("ref-body").children)*/
 
-console.log(document.getElementById("ref-div").previousElementSibling)
+/*console.log(document.getElementById("ref-div").previousElementSibling)
 console.log(document.getElementById("ref-lista").children)
 console.log(document.getElementById("ref-lista").previousElementSibling.previousElementSibling)
 console.log(document.getElementById("ref-lista").nextElementSibling)
 console.log(document.getElementById("ref-lista").nextElementSibling.children[0].children[2].children[0])
 console.log(document.getElementById("ref-table").previousElementSibling.previousElementSibling)
 console.log(document.getElementById("ref-table").children[0].children[2].children[0])
-console.log(document.getElementById("ref-div").nextElementSibling.nextElementSibling)
+console.log(document.getElementById("ref-div").nextElementSibling.nextElementSibling)*/
+
+console.log(refBoton)
+
+
+
 
  
 
