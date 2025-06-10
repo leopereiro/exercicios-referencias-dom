@@ -1,4 +1,4 @@
-import {refP, refDiv, refLista, refTable, refTh, refTd, refBody, refBoton, refPEx3, refBotonP, refListaEx3, refBotonLista, Lista2Ex3, refSpanLista, DivEx4Before, DivEx4After, elementoDivEx4} from "./funcions/referencias.js"
+import {refP, refDiv, refLista, refTable, refTh, refTd, refBody, refBoton, refPEx3, refBotonP, refListaEx3, refBotonLista, Lista2Ex3, refSpanLista, DivEx4Before, DivEx4After, elementoDivEx4, elementoPEx4} from "./funcions/referencias.js"
 
 /*console.log(refP)
 console.log(refDiv)
