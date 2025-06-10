@@ -1,4 +1,4 @@
-import {refP, refDiv, refLista, refTable, refTh, refTd, refBody, refBoton, refPEx3, refBotonP, refListaEx3, refBotonLista, Lista2Ex3, refSpanLista} from "./funcions/referencias.js"
+import {refP, refDiv, refLista, refTable, refTh, refTd, refBody, refBoton, refPEx3, refBotonP, refListaEx3, refBotonLista, Lista2Ex3, refSpanLista, DivEx4Before, DivEx4After, elementoDivEx4} from "./funcions/referencias.js"
 
 /*console.log(refP)
 console.log(refDiv)
@@ -24,7 +24,7 @@ console.log(document.getElementById("ref-table").previousElementSibling.previous
 console.log(document.getElementById("ref-table").children[0].children[2].children[0])
 console.log(document.getElementById("ref-div").nextElementSibling.nextElementSibling)*/
 
-console.log(refBoton)
+
 
 
 

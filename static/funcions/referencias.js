@@ -1,4 +1,4 @@
-export { refP, refDiv, refLista, refTable, refTh, refTd, refBody, refBoton, refPEx3, refBotonP, refListaEx3, refBotonLista, Lista2Ex3, refSpanLista }
+export { refP, refDiv, refLista, refTable, refTh, refTd, refBody, refBoton, refPEx3, refBotonP, refListaEx3, refBotonLista, Lista2Ex3, refSpanLista, DivEx4Before, DivEx4After, elementoDivEx4}
 
 const refP = document.querySelector("#ref-p");
 const refDiv = document.querySelector("#ref-div");
@@ -16,9 +16,16 @@ const ListaElemento3 = document.querySelector("#lista-elemento-3");
 const Lista2Ex3 = document.querySelector("#lista-2-ex-3");
 let refSpanLista = document.querySelector("#span-lista");
 const refListaImaxes = document.querySelector("#lista-imaxes");
-let refImaxe1 = document.querySelector("#imaxe-1")
+let refImaxe1 = document.querySelector("#imaxe-1");
+let DivEx4Before = document.createElement("div");
+let DivEx4After = document.createElement("div");
+let elementoDivEx4 = document.querySelector("#div-ex-4");
+DivEx4Before.innerHTML = "Novo texto before";
+DivEx4After.innerHTML = "Novo texto after";
+elementoDivEx4.before(DivEx4Before);
+elementoDivEx4.after(DivEx4After);
 
-refP.addEventListener("click", ()=> {
+/*refP.addEventListener("click", ()=> {
     refP.firstChild.textContent = "cambio o texto"
 })
 
@@ -58,4 +65,10 @@ refImaxe1.addEventListener("click", (e)=>{
     refImaxe1 = e.target;
 
 })
+
+*/
+
+
+
+
 
